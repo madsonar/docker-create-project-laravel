@@ -19,7 +19,7 @@ Conceda privilégios administrativos no grupo do Docker para seu usuário execut
 ```
 Ativa Docker para iniciar na reinicialização do sistema:
 ```	
-  $ sudo systemctl enable --now docker
+        $ sudo systemctl enable --now docker
 ```
 
 Vamos lá...
