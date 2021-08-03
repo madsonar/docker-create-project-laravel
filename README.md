@@ -11,18 +11,44 @@ Caso seja no Linux Ubuntu 20.04:
 
 Instalar
 ```
-	$ sudo apt install docker.io
+sudo apt install docker.io
 ```
 Conceda privilégios administrativos no grupo do Docker para seu usuário executar os comandos do Docker.
 ```
-	$ sudo usermod -aG docker SOMEUSERNAME
+sudo usermod -aG docker SOMEUSERNAME
 ```
 Ativa Docker para iniciar na reinicialização do sistema:
 ```	
-        $ sudo systemctl enable --now docker
+sudo systemctl enable --now docker
 ```
 
 Vamos lá...
+
+- Primeiro clone o repositório
+```
+git clone https://github.com/madsonar/docker-create-project-laravel.git
+```
+- Navegue para o diretório do projeto
+```
+cd docker-create-project-laravel
+```
+- Vamos buildar o Dockerfile para gerar a image com PHP e Composer
+```
+docker build -t create-project-laravel .
+```
+
+
+```
+```
+
+
+```
+```
+
+
+```
+```
+
 
 
 
